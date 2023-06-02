@@ -41,7 +41,7 @@ const debounce = function(func, wait, immediate) {
 
   //trocar de tela, caso contato dê certo
   function passar() {
-    window.location.href = "index.html"
+    window.location.href = "https://bryanfavarao.github.io/ProgCare/"
   }
 
 
