@@ -1,0 +1,126 @@
+
+.box{
+    
+    border-radius: 50%;
+    font-size: 20PX;
+    margin-bottom: 100px;
+    text-align: center;
+    stroke: none;
+    
+}
+
+#tituloContato{
+
+    text-align: center;
+    font-size: 70px;
+    color: white;
+    -webkit-text-stroke: 3px #3a99d1;
+      
+
+}
+
+#subtituloContato{
+
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+margin: 20px;
+ color: #83dafa;
+
+}
+
+
+
+fieldset{
+width: 700px;
+border-radius: 30px;
+stroke: #83dafa;
+background-color: #ffffff;
+margin-left: 600px;
+border: 5px solid #6ba9c4;
+
+}
+
+input[id="nome"],
+input[id="email"],
+input[id="telefone"]{
+    width: 300px;
+    height: 40px;
+    margin: 10px;
+    font-size: 20px;
+    border-color: #83dafa;
+    border-radius: 10px;
+}
+
+select[name="$estado"]{
+        font-size: 20px;
+        width: 100px;
+}
+textarea{
+    padding: 10px;
+    outline: none;
+    width: 300px;
+    resize: none;
+}
+
+input[type="submit"]{
+    padding: 5px 10px;
+    background-color: #a6ebd0;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    transition: 0.5s ease-in-out;
+    margin: 30px;
+
+}
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="telefone"]:focus{
+    
+    color: #6ba9c4;
+    border-color: #6ba9c4;
+}
+
+input[type="submit"]:hover{
+    transform: scale(1.2);
+    background-color: #3a99d1;
+}
+
+
+
+
+
+
+
+
+/*responsividade*/
+@media (max-width: 790px){
+  
+    #tituloContato{
+        font-size: 60px;
+    }
+    
+
+    #subtituloContato{
+        font-size: 17px;
+    }
+   fieldset{
+    width: 200px;
+    margin-left: 5px;   
+}
+input[id="nome"],
+input[id="email"],
+input[id="telefone"]{
+    width: 150px;
+    height: 40px;
+    margin: 10px;
+    font-size: 10px;
+    border-color: #83dafa;
+    border-radius: 10px;
+}
+textarea{
+    padding: 10px;
+    outline: none;
+    width: 250px;
+    resize: none;
+}
+    
+}
