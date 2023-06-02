@@ -5,7 +5,7 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 #background{
- background-image: url ("/img/fundo.png");
+ background-image: url ("../img/fundo.png");
  background-size: cover;
  background-position: center;
  height: 100vh;
@@ -132,7 +132,7 @@ h4{
 
 /*inicio pt2-site*/
 #backgroundProjeto{
-    background-image: url(./img/fundo2.png);
+    background-image: url(../img/fundo2.png);
     background-size: cover;
 }
 
@@ -234,7 +234,7 @@ display: inline-flex;
 
 /*inicio pt3-site*/
 #backgroundSobreNos{
-    background-image: url(./img/fundo3.png);
+    background-image: url(../img/fundo3.png);
     background-size: cover;
     
 }
@@ -263,7 +263,7 @@ display: inline-flex;
 
 /*inicio pt4-site*/
     #backgroundContato{
-        background-image: url(./img/fundo4.png);
+        background-image: url(../img/fundo4.png);
         background-size: cover;
 
 /*rodapé*/
